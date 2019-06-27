@@ -32,7 +32,7 @@ export default class SingleRecipe extends Component {
 
 
     render() {
-        const {image_url, publisher, publisher_url, source_url, title, ingredients} = this.state.recipe
+        const {image_url, publisher, publisher_url, source_url, title, ingredients} = this.state.recipe;
        if(this.state.loading) {
            return(<div className="container">
                <div className="row">
